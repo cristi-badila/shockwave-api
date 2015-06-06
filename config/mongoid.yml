@@ -99,9 +99,7 @@ test:
         # low amounts for fast failures.
         max_retries: 1
         retry_interval: 0
-
-
-development:
+production:
   sessions:
     default:
       uri: 'mongodb://heroku_app37590971:ndbgmdsaf0jbes9bti9sanbp04@ds047217.mongolab.com:47217/heroku_app37590971'
