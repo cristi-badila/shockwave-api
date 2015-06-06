@@ -16,6 +16,7 @@ Rails.application.routes.draw do
 
   resources :users
   resources :handshakes, only: [:create]
+  resources :acquaintances, only: [:index]
 
 
 
